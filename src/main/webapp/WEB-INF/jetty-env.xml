@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Configure id='wac' class="org.eclipse.jetty.webapp.WebAppContext">
+    <New id="infsyst" class="org.eclipse.jetty.plus.jndi.Resource">
+        <Arg>
+            <Ref id='wac'/>
+        </Arg>
+        <Arg>jdbc/infsyst</Arg>
+        <Arg>
+            <New class="oracle.jdbc.pool.OracleConnectionPoolDataSource">
+                <Set name="URL">jdbc:oracle:thin:@//localhost:1521/xe</Set>
+                <Set name="User">system</Set>
+                <Set name="Password">password</Set>
+            </New>
+        </Arg>
+    </New>
+</Configure>

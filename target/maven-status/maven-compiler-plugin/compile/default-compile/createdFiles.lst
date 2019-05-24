@@ -1,0 +1,6 @@
+servlets\StartServlet.class
+bean\ConnectorBean.class
+structures\Department.class
+structures\Employee.class
+main\Main.class
+main\SpringApplicationContextListener.class

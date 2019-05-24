@@ -1,0 +1,78 @@
+@charset "windows-1251";
+
+body {
+    background-color: rgba(110, 224, 255, 0.1);
+    position: relative;
+}
+
+table {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    border-collapse: collapse;
+    border: 1px solid rgba(12, 107, 77, 1);
+}
+
+
+td {
+    border: 1px solid rgba(12, 107, 77, 1);
+    padding: 10px 15px;
+}
+
+
+div > div {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    background-color: rgba(12, 107, 77, 1);
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+div > div:hover {
+    background-color: rgba(4, 199, 33, 1);
+}
+
+#maible1 {
+    display: inline-block;
+    top: 10px;
+    left: 0%;
+    position: absolute;
+}
+
+div#maible1 > form > button {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    background-color: rgba(12, 107, 77, 1);
+    padding: 5px 0;
+    cursor: pointer;
+    border: 0;
+    width: 100%;
+    font-family: "Times New Roman", serif;
+    font-size: large;
+}
+
+div#maible1 > form > button:hover {
+    background-color: rgba(4, 199, 33, 1);
+}
+
+#maible2 {
+    display: inline-block;
+    top: 10px;
+    left: 40%;
+    position: absolute;
+}
+
+div#maible2 > form > button {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    background-color: rgba(12, 107, 77, 1);
+    padding: 5px 0;
+    cursor: pointer;
+    border: 0;
+    width: 100%;
+    font-family: "Times New Roman", serif;
+    font-size: large;
+}
+
+div#maible2 > form > button:hover {
+    background-color: rgba(4, 199, 33, 1);
+}
