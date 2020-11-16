@@ -23,7 +23,7 @@
     </build>
 
     <properties>
-        <jettyVersion>9.4.5.v20170502</jettyVersion>
+        <jettyVersion>9.4.34.v20201102</jettyVersion>
     </properties>
 
     <dependencies>
